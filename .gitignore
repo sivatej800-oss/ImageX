@@ -1,0 +1,72 @@
+# ---- OS / editor ----
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+.vscode/
+*.code-workspace
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.Python
+build/
+dist/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# ---- Virtual envs ----
+venv/
+.venv/
+env/
+.env
+.envrc
+
+# ---- Jupyter ----
+.ipynb_checkpoints/
+
+# ---- Model weights / data (must be downloaded; see README) ----
+*.pth
+*.pt
+*.ckpt
+*.bin
+*.safetensors
+*.h5
+*.onnx
+
+# Imaging data
+*.nii
+*.nii.gz
+*.dcm
+*.mha
+*.mhd
+*.nrrd
+
+# Archives
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.7z
+
+# ---- MONAI / training artifacts ----
+persistent_cache/
+runs/
+logs/
+tb_logs/
+tensorboard/
+wandb/
+checkpoints/
+outputs/
+
+# ---- Project-specific (must be downloaded; see MODEL_WEIGHTS.md) ----
+weights/
+Dataset002_BRATS19/
+Sample_data/
+sample_data/
+data/

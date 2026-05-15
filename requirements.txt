@@ -1,0 +1,28 @@
+# Core deep learning
+torch==2.5.1
+torchvision==0.20.1
+torchmetrics==1.6.1
+pytorch-ignite==0.4.11
+pytorch-msssim==1.0.0
+
+# Medical imaging
+monai==1.4.0
+nibabel==5.3.2
+SimpleITK
+medpy
+nnunetv2
+
+# Scientific stack
+numpy==1.26.4
+scipy==1.14.1
+pandas==2.2.3
+scikit-learn
+matplotlib==3.9.2
+tqdm==4.67.0
+
+# Logging / experiment tracking
+tensorboard==2.18.0
+mlxtend
+
+# Optional: skull stripping for non-BraTS data
+# hd-bet

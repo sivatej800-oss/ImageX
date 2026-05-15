@@ -1,0 +1,806 @@
+{
+    "train": [
+        {
+            "image": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00177-000/swinbrain_3ch_T1_T2w_T2f.nii.gz",
+            "label": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00177-000/seg_cropped.nii.gz"
+        },
+        {
+            "image": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00307-000/swinbrain_3ch_T1_T2w_T2f.nii.gz",
+            "label": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00307-000/seg_cropped.nii.gz"
+        },
+        {
+            "image": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00134-000/swinbrain_3ch_T1_T2w_T2f.nii.gz",
+            "label": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00134-000/seg_cropped.nii.gz"
+        },
+        {
+            "image": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00120-000/swinbrain_3ch_T1_T2w_T2f.nii.gz",
+            "label": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00120-000/seg_cropped.nii.gz"
+        },
+        {
+            "image": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00222-000/swinbrain_3ch_T1_T2w_T2f.nii.gz",
+            "label": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00222-000/seg_cropped.nii.gz"
+        },
+        {
+            "image": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00305-000/swinbrain_3ch_T1_T2w_T2f.nii.gz",
+            "label": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00305-000/seg_cropped.nii.gz"
+        },
+        {
+            "image": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00125-000/swinbrain_3ch_T1_T2w_T2f.nii.gz",
+            "label": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00125-000/seg_cropped.nii.gz"
+        },
+        {
+            "image": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00115-000/swinbrain_3ch_T1_T2w_T2f.nii.gz",
+            "label": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00115-000/seg_cropped.nii.gz"
+        },
+        {
+            "image": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00245-000/swinbrain_3ch_T1_T2w_T2f.nii.gz",
+            "label": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00245-000/seg_cropped.nii.gz"
+        },
+        {
+            "image": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00184-000/swinbrain_3ch_T1_T2w_T2f.nii.gz",
+            "label": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00184-000/seg_cropped.nii.gz"
+        },
+        {
+            "image": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00213-000/swinbrain_3ch_T1_T2w_T2f.nii.gz",
+            "label": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00213-000/seg_cropped.nii.gz"
+        },
+        {
+            "image": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00281-000/swinbrain_3ch_T1_T2w_T2f.nii.gz",
+            "label": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00281-000/seg_cropped.nii.gz"
+        },
+        {
+            "image": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00098-000/swinbrain_3ch_T1_T2w_T2f.nii.gz",
+            "label": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00098-000/seg_cropped.nii.gz"
+        },
+        {
+            "image": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00226-000/swinbrain_3ch_T1_T2w_T2f.nii.gz",
+            "label": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00226-000/seg_cropped.nii.gz"
+        },
+        {
+            "image": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00216-000/swinbrain_3ch_T1_T2w_T2f.nii.gz",
+            "label": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00216-000/seg_cropped.nii.gz"
+        },
+        {
+            "image": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00171-000/swinbrain_3ch_T1_T2w_T2f.nii.gz",
+            "label": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00171-000/seg_cropped.nii.gz"
+        },
+        {
+            "image": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00242-000/swinbrain_3ch_T1_T2w_T2f.nii.gz",
+            "label": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00242-000/seg_cropped.nii.gz"
+        },
+        {
+            "image": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00197-000/swinbrain_3ch_T1_T2w_T2f.nii.gz",
+            "label": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00197-000/seg_cropped.nii.gz"
+        },
+        {
+            "image": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00280-000/swinbrain_3ch_T1_T2w_T2f.nii.gz",
+            "label": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00280-000/seg_cropped.nii.gz"
+        },
+        {
+            "image": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00195-000/swinbrain_3ch_T1_T2w_T2f.nii.gz",
+            "label": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00195-000/seg_cropped.nii.gz"
+        },
+        {
+            "image": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00276-000/swinbrain_3ch_T1_T2w_T2f.nii.gz",
+            "label": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00276-000/seg_cropped.nii.gz"
+        },
+        {
+            "image": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00196-000/swinbrain_3ch_T1_T2w_T2f.nii.gz",
+            "label": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00196-000/seg_cropped.nii.gz"
+        },
+        {
+            "image": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00127-000/swinbrain_3ch_T1_T2w_T2f.nii.gz",
+            "label": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00127-000/seg_cropped.nii.gz"
+        },
+        {
+            "image": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00108-000/swinbrain_3ch_T1_T2w_T2f.nii.gz",
+            "label": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00108-000/seg_cropped.nii.gz"
+        },
+        {
+            "image": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00131-000/swinbrain_3ch_T1_T2w_T2f.nii.gz",
+            "label": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00131-000/seg_cropped.nii.gz"
+        },
+        {
+            "image": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00219-000/swinbrain_3ch_T1_T2w_T2f.nii.gz",
+            "label": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00219-000/seg_cropped.nii.gz"
+        },
+        {
+            "image": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00138-000/swinbrain_3ch_T1_T2w_T2f.nii.gz",
+            "label": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00138-000/seg_cropped.nii.gz"
+        },
+        {
+            "image": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00299-000/swinbrain_3ch_T1_T2w_T2f.nii.gz",
+            "label": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00299-000/seg_cropped.nii.gz"
+        },
+        {
+            "image": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00189-000/swinbrain_3ch_T1_T2w_T2f.nii.gz",
+            "label": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00189-000/seg_cropped.nii.gz"
+        },
+        {
+            "image": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00238-000/swinbrain_3ch_T1_T2w_T2f.nii.gz",
+            "label": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00238-000/seg_cropped.nii.gz"
+        },
+        {
+            "image": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00148-000/swinbrain_3ch_T1_T2w_T2f.nii.gz",
+            "label": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00148-000/seg_cropped.nii.gz"
+        },
+        {
+            "image": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00227-000/swinbrain_3ch_T1_T2w_T2f.nii.gz",
+            "label": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00227-000/seg_cropped.nii.gz"
+        },
+        {
+            "image": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00269-000/swinbrain_3ch_T1_T2w_T2f.nii.gz",
+            "label": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00269-000/seg_cropped.nii.gz"
+        },
+        {
+            "image": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00137-000/swinbrain_3ch_T1_T2w_T2f.nii.gz",
+            "label": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00137-000/seg_cropped.nii.gz"
+        },
+        {
+            "image": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00217-000/swinbrain_3ch_T1_T2w_T2f.nii.gz",
+            "label": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00217-000/seg_cropped.nii.gz"
+        },
+        {
+            "image": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00212-000/swinbrain_3ch_T1_T2w_T2f.nii.gz",
+            "label": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00212-000/seg_cropped.nii.gz"
+        },
+        {
+            "image": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00122-000/swinbrain_3ch_T1_T2w_T2f.nii.gz",
+            "label": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00122-000/seg_cropped.nii.gz"
+        },
+        {
+            "image": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00241-000/swinbrain_3ch_T1_T2w_T2f.nii.gz",
+            "label": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00241-000/seg_cropped.nii.gz"
+        },
+        {
+            "image": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00199-000/swinbrain_3ch_T1_T2w_T2f.nii.gz",
+            "label": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00199-000/seg_cropped.nii.gz"
+        },
+        {
+            "image": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00210-000/swinbrain_3ch_T1_T2w_T2f.nii.gz",
+            "label": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00210-000/seg_cropped.nii.gz"
+        },
+        {
+            "image": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00090-000/swinbrain_3ch_T1_T2w_T2f.nii.gz",
+            "label": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00090-000/seg_cropped.nii.gz"
+        },
+        {
+            "image": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00175-000/swinbrain_3ch_T1_T2w_T2f.nii.gz",
+            "label": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00175-000/seg_cropped.nii.gz"
+        },
+        {
+            "image": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00142-000/swinbrain_3ch_T1_T2w_T2f.nii.gz",
+            "label": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00142-000/seg_cropped.nii.gz"
+        },
+        {
+            "image": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00296-000/swinbrain_3ch_T1_T2w_T2f.nii.gz",
+            "label": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00296-000/seg_cropped.nii.gz"
+        },
+        {
+            "image": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00301-000/swinbrain_3ch_T1_T2w_T2f.nii.gz",
+            "label": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00301-000/seg_cropped.nii.gz"
+        },
+        {
+            "image": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00183-000/swinbrain_3ch_T1_T2w_T2f.nii.gz",
+            "label": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00183-000/seg_cropped.nii.gz"
+        },
+        {
+            "image": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00268-000/swinbrain_3ch_T1_T2w_T2f.nii.gz",
+            "label": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00268-000/seg_cropped.nii.gz"
+        },
+        {
+            "image": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00132-000/swinbrain_3ch_T1_T2w_T2f.nii.gz",
+            "label": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00132-000/seg_cropped.nii.gz"
+        },
+        {
+            "image": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00300-000/swinbrain_3ch_T1_T2w_T2f.nii.gz",
+            "label": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00300-000/seg_cropped.nii.gz"
+        },
+        {
+            "image": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00158-000/swinbrain_3ch_T1_T2w_T2f.nii.gz",
+            "label": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00158-000/seg_cropped.nii.gz"
+        },
+        {
+            "image": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00118-000/swinbrain_3ch_T1_T2w_T2f.nii.gz",
+            "label": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00118-000/seg_cropped.nii.gz"
+        },
+        {
+            "image": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00243-000/swinbrain_3ch_T1_T2w_T2f.nii.gz",
+            "label": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00243-000/seg_cropped.nii.gz"
+        },
+        {
+            "image": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00200-000/swinbrain_3ch_T1_T2w_T2f.nii.gz",
+            "label": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00200-000/seg_cropped.nii.gz"
+        },
+        {
+            "image": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00129-000/swinbrain_3ch_T1_T2w_T2f.nii.gz",
+            "label": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00129-000/seg_cropped.nii.gz"
+        },
+        {
+            "image": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00107-000/swinbrain_3ch_T1_T2w_T2f.nii.gz",
+            "label": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00107-000/seg_cropped.nii.gz"
+        },
+        {
+            "image": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00304-000/swinbrain_3ch_T1_T2w_T2f.nii.gz",
+            "label": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00304-000/seg_cropped.nii.gz"
+        },
+        {
+            "image": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00266-000/swinbrain_3ch_T1_T2w_T2f.nii.gz",
+            "label": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00266-000/seg_cropped.nii.gz"
+        },
+        {
+            "image": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00100-000/swinbrain_3ch_T1_T2w_T2f.nii.gz",
+            "label": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00100-000/seg_cropped.nii.gz"
+        },
+        {
+            "image": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00123-000/swinbrain_3ch_T1_T2w_T2f.nii.gz",
+            "label": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00123-000/seg_cropped.nii.gz"
+        },
+        {
+            "image": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00220-000/swinbrain_3ch_T1_T2w_T2f.nii.gz",
+            "label": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00220-000/seg_cropped.nii.gz"
+        },
+        {
+            "image": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00097-000/swinbrain_3ch_T1_T2w_T2f.nii.gz",
+            "label": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00097-000/seg_cropped.nii.gz"
+        },
+        {
+            "image": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00128-000/swinbrain_3ch_T1_T2w_T2f.nii.gz",
+            "label": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00128-000/seg_cropped.nii.gz"
+        },
+        {
+            "image": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00244-000/swinbrain_3ch_T1_T2w_T2f.nii.gz",
+            "label": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00244-000/seg_cropped.nii.gz"
+        },
+        {
+            "image": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00248-000/swinbrain_3ch_T1_T2w_T2f.nii.gz",
+            "label": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00248-000/seg_cropped.nii.gz"
+        },
+        {
+            "image": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00208-000/swinbrain_3ch_T1_T2w_T2f.nii.gz",
+            "label": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00208-000/seg_cropped.nii.gz"
+        },
+        {
+            "image": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00247-000/swinbrain_3ch_T1_T2w_T2f.nii.gz",
+            "label": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00247-000/seg_cropped.nii.gz"
+        },
+        {
+            "image": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00106-000/swinbrain_3ch_T1_T2w_T2f.nii.gz",
+            "label": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00106-000/seg_cropped.nii.gz"
+        },
+        {
+            "image": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00159-000/swinbrain_3ch_T1_T2w_T2f.nii.gz",
+            "label": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00159-000/seg_cropped.nii.gz"
+        },
+        {
+            "image": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00211-000/swinbrain_3ch_T1_T2w_T2f.nii.gz",
+            "label": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00211-000/seg_cropped.nii.gz"
+        },
+        {
+            "image": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00249-000/swinbrain_3ch_T1_T2w_T2f.nii.gz",
+            "label": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00249-000/seg_cropped.nii.gz"
+        },
+        {
+            "image": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00273-000/swinbrain_3ch_T1_T2w_T2f.nii.gz",
+            "label": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00273-000/seg_cropped.nii.gz"
+        },
+        {
+            "image": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00086-000/swinbrain_3ch_T1_T2w_T2f.nii.gz",
+            "label": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00086-000/seg_cropped.nii.gz"
+        },
+        {
+            "image": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00309-000/swinbrain_3ch_T1_T2w_T2f.nii.gz",
+            "label": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00309-000/seg_cropped.nii.gz"
+        },
+        {
+            "image": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00256-000/swinbrain_3ch_T1_T2w_T2f.nii.gz",
+            "label": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00256-000/seg_cropped.nii.gz"
+        },
+        {
+            "image": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00167-000/swinbrain_3ch_T1_T2w_T2f.nii.gz",
+            "label": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00167-000/seg_cropped.nii.gz"
+        },
+        {
+            "image": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00223-000/swinbrain_3ch_T1_T2w_T2f.nii.gz",
+            "label": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00223-000/seg_cropped.nii.gz"
+        },
+        {
+            "image": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00161-000/swinbrain_3ch_T1_T2w_T2f.nii.gz",
+            "label": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00161-000/seg_cropped.nii.gz"
+        },
+        {
+            "image": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00140-000/swinbrain_3ch_T1_T2w_T2f.nii.gz",
+            "label": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00140-000/seg_cropped.nii.gz"
+        },
+        {
+            "image": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00270-000/swinbrain_3ch_T1_T2w_T2f.nii.gz",
+            "label": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00270-000/seg_cropped.nii.gz"
+        },
+        {
+            "image": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00124-000/swinbrain_3ch_T1_T2w_T2f.nii.gz",
+            "label": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00124-000/seg_cropped.nii.gz"
+        },
+        {
+            "image": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00136-000/swinbrain_3ch_T1_T2w_T2f.nii.gz",
+            "label": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00136-000/seg_cropped.nii.gz"
+        },
+        {
+            "image": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00207-000/swinbrain_3ch_T1_T2w_T2f.nii.gz",
+            "label": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00207-000/seg_cropped.nii.gz"
+        },
+        {
+            "image": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00260-000/swinbrain_3ch_T1_T2w_T2f.nii.gz",
+            "label": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00260-000/seg_cropped.nii.gz"
+        },
+        {
+            "image": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00262-000/swinbrain_3ch_T1_T2w_T2f.nii.gz",
+            "label": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00262-000/seg_cropped.nii.gz"
+        },
+        {
+            "image": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00121-000/swinbrain_3ch_T1_T2w_T2f.nii.gz",
+            "label": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00121-000/seg_cropped.nii.gz"
+        },
+        {
+            "image": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00119-000/swinbrain_3ch_T1_T2w_T2f.nii.gz",
+            "label": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00119-000/seg_cropped.nii.gz"
+        },
+        {
+            "image": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00293-000/swinbrain_3ch_T1_T2w_T2f.nii.gz",
+            "label": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00293-000/seg_cropped.nii.gz"
+        },
+        {
+            "image": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00250-000/swinbrain_3ch_T1_T2w_T2f.nii.gz",
+            "label": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00250-000/seg_cropped.nii.gz"
+        },
+        {
+            "image": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00179-000/swinbrain_3ch_T1_T2w_T2f.nii.gz",
+            "label": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00179-000/seg_cropped.nii.gz"
+        },
+        {
+            "image": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00135-000/swinbrain_3ch_T1_T2w_T2f.nii.gz",
+            "label": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00135-000/seg_cropped.nii.gz"
+        },
+        {
+            "image": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00275-000/swinbrain_3ch_T1_T2w_T2f.nii.gz",
+            "label": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00275-000/seg_cropped.nii.gz"
+        },
+        {
+            "image": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00143-000/swinbrain_3ch_T1_T2w_T2f.nii.gz",
+            "label": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00143-000/seg_cropped.nii.gz"
+        },
+        {
+            "image": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00193-000/swinbrain_3ch_T1_T2w_T2f.nii.gz",
+            "label": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00193-000/seg_cropped.nii.gz"
+        },
+        {
+            "image": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00258-000/swinbrain_3ch_T1_T2w_T2f.nii.gz",
+            "label": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00258-000/seg_cropped.nii.gz"
+        },
+        {
+            "image": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00139-000/swinbrain_3ch_T1_T2w_T2f.nii.gz",
+            "label": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00139-000/seg_cropped.nii.gz"
+        },
+        {
+            "image": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00240-000/swinbrain_3ch_T1_T2w_T2f.nii.gz",
+            "label": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00240-000/seg_cropped.nii.gz"
+        },
+        {
+            "image": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00096-000/swinbrain_3ch_T1_T2w_T2f.nii.gz",
+            "label": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00096-000/seg_cropped.nii.gz"
+        },
+        {
+            "image": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00204-000/swinbrain_3ch_T1_T2w_T2f.nii.gz",
+            "label": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00204-000/seg_cropped.nii.gz"
+        },
+        {
+            "image": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00150-000/swinbrain_3ch_T1_T2w_T2f.nii.gz",
+            "label": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00150-000/seg_cropped.nii.gz"
+        },
+        {
+            "image": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00234-000/swinbrain_3ch_T1_T2w_T2f.nii.gz",
+            "label": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00234-000/seg_cropped.nii.gz"
+        },
+        {
+            "image": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00289-000/swinbrain_3ch_T1_T2w_T2f.nii.gz",
+            "label": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00289-000/seg_cropped.nii.gz"
+        },
+        {
+            "image": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00286-000/swinbrain_3ch_T1_T2w_T2f.nii.gz",
+            "label": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00286-000/seg_cropped.nii.gz"
+        },
+        {
+            "image": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00294-000/swinbrain_3ch_T1_T2w_T2f.nii.gz",
+            "label": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00294-000/seg_cropped.nii.gz"
+        },
+        {
+            "image": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00145-000/swinbrain_3ch_T1_T2w_T2f.nii.gz",
+            "label": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00145-000/seg_cropped.nii.gz"
+        },
+        {
+            "image": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00178-000/swinbrain_3ch_T1_T2w_T2f.nii.gz",
+            "label": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00178-000/seg_cropped.nii.gz"
+        },
+        {
+            "image": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00130-000/swinbrain_3ch_T1_T2w_T2f.nii.gz",
+            "label": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00130-000/seg_cropped.nii.gz"
+        },
+        {
+            "image": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00102-000/swinbrain_3ch_T1_T2w_T2f.nii.gz",
+            "label": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00102-000/seg_cropped.nii.gz"
+        },
+        {
+            "image": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00209-000/swinbrain_3ch_T1_T2w_T2f.nii.gz",
+            "label": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00209-000/seg_cropped.nii.gz"
+        },
+        {
+            "image": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00190-000/swinbrain_3ch_T1_T2w_T2f.nii.gz",
+            "label": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00190-000/seg_cropped.nii.gz"
+        },
+        {
+            "image": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00181-000/swinbrain_3ch_T1_T2w_T2f.nii.gz",
+            "label": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00181-000/seg_cropped.nii.gz"
+        },
+        {
+            "image": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00284-000/swinbrain_3ch_T1_T2w_T2f.nii.gz",
+            "label": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00284-000/seg_cropped.nii.gz"
+        },
+        {
+            "image": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00290-000/swinbrain_3ch_T1_T2w_T2f.nii.gz",
+            "label": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00290-000/seg_cropped.nii.gz"
+        },
+        {
+            "image": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00188-000/swinbrain_3ch_T1_T2w_T2f.nii.gz",
+            "label": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00188-000/seg_cropped.nii.gz"
+        },
+        {
+            "image": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00104-000/swinbrain_3ch_T1_T2w_T2f.nii.gz",
+            "label": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00104-000/seg_cropped.nii.gz"
+        },
+        {
+            "image": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00109-000/swinbrain_3ch_T1_T2w_T2f.nii.gz",
+            "label": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00109-000/seg_cropped.nii.gz"
+        },
+        {
+            "image": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00156-000/swinbrain_3ch_T1_T2w_T2f.nii.gz",
+            "label": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00156-000/seg_cropped.nii.gz"
+        },
+        {
+            "image": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00278-000/swinbrain_3ch_T1_T2w_T2f.nii.gz",
+            "label": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00278-000/seg_cropped.nii.gz"
+        },
+        {
+            "image": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00232-000/swinbrain_3ch_T1_T2w_T2f.nii.gz",
+            "label": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00232-000/seg_cropped.nii.gz"
+        },
+        {
+            "image": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00113-000/swinbrain_3ch_T1_T2w_T2f.nii.gz",
+            "label": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00113-000/seg_cropped.nii.gz"
+        },
+        {
+            "image": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00170-000/swinbrain_3ch_T1_T2w_T2f.nii.gz",
+            "label": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00170-000/seg_cropped.nii.gz"
+        },
+        {
+            "image": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00283-000/swinbrain_3ch_T1_T2w_T2f.nii.gz",
+            "label": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00283-000/seg_cropped.nii.gz"
+        },
+        {
+            "image": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00235-000/swinbrain_3ch_T1_T2w_T2f.nii.gz",
+            "label": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00235-000/seg_cropped.nii.gz"
+        },
+        {
+            "image": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00274-000/swinbrain_3ch_T1_T2w_T2f.nii.gz",
+            "label": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00274-000/seg_cropped.nii.gz"
+        },
+        {
+            "image": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00292-000/swinbrain_3ch_T1_T2w_T2f.nii.gz",
+            "label": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00292-000/seg_cropped.nii.gz"
+        },
+        {
+            "image": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00160-000/swinbrain_3ch_T1_T2w_T2f.nii.gz",
+            "label": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00160-000/seg_cropped.nii.gz"
+        },
+        {
+            "image": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00151-000/swinbrain_3ch_T1_T2w_T2f.nii.gz",
+            "label": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00151-000/seg_cropped.nii.gz"
+        },
+        {
+            "image": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00206-000/swinbrain_3ch_T1_T2w_T2f.nii.gz",
+            "label": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00206-000/seg_cropped.nii.gz"
+        },
+        {
+            "image": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00147-000/swinbrain_3ch_T1_T2w_T2f.nii.gz",
+            "label": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00147-000/seg_cropped.nii.gz"
+        },
+        {
+            "image": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00306-000/swinbrain_3ch_T1_T2w_T2f.nii.gz",
+            "label": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00306-000/seg_cropped.nii.gz"
+        },
+        {
+            "image": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00155-000/swinbrain_3ch_T1_T2w_T2f.nii.gz",
+            "label": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00155-000/seg_cropped.nii.gz"
+        },
+        {
+            "image": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00144-000/swinbrain_3ch_T1_T2w_T2f.nii.gz",
+            "label": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00144-000/seg_cropped.nii.gz"
+        },
+        {
+            "image": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00187-000/swinbrain_3ch_T1_T2w_T2f.nii.gz",
+            "label": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00187-000/seg_cropped.nii.gz"
+        },
+        {
+            "image": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00117-000/swinbrain_3ch_T1_T2w_T2f.nii.gz",
+            "label": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00117-000/seg_cropped.nii.gz"
+        },
+        {
+            "image": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00154-000/swinbrain_3ch_T1_T2w_T2f.nii.gz",
+            "label": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00154-000/seg_cropped.nii.gz"
+        },
+        {
+            "image": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00267-000/swinbrain_3ch_T1_T2w_T2f.nii.gz",
+            "label": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00267-000/seg_cropped.nii.gz"
+        },
+        {
+            "image": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00302-000/swinbrain_3ch_T1_T2w_T2f.nii.gz",
+            "label": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00302-000/seg_cropped.nii.gz"
+        },
+        {
+            "image": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00230-000/swinbrain_3ch_T1_T2w_T2f.nii.gz",
+            "label": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00230-000/seg_cropped.nii.gz"
+        },
+        {
+            "image": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00133-000/swinbrain_3ch_T1_T2w_T2f.nii.gz",
+            "label": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00133-000/seg_cropped.nii.gz"
+        },
+        {
+            "image": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00263-000/swinbrain_3ch_T1_T2w_T2f.nii.gz",
+            "label": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00263-000/seg_cropped.nii.gz"
+        },
+        {
+            "image": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00303-000/swinbrain_3ch_T1_T2w_T2f.nii.gz",
+            "label": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00303-000/seg_cropped.nii.gz"
+        },
+        {
+            "image": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00089-000/swinbrain_3ch_T1_T2w_T2f.nii.gz",
+            "label": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00089-000/seg_cropped.nii.gz"
+        },
+        {
+            "image": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00149-000/swinbrain_3ch_T1_T2w_T2f.nii.gz",
+            "label": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00149-000/seg_cropped.nii.gz"
+        },
+        {
+            "image": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00252-000/swinbrain_3ch_T1_T2w_T2f.nii.gz",
+            "label": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00252-000/seg_cropped.nii.gz"
+        },
+        {
+            "image": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00231-000/swinbrain_3ch_T1_T2w_T2f.nii.gz",
+            "label": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00231-000/seg_cropped.nii.gz"
+        },
+        {
+            "image": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00254-000/swinbrain_3ch_T1_T2w_T2f.nii.gz",
+            "label": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00254-000/seg_cropped.nii.gz"
+        },
+        {
+            "image": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00202-000/swinbrain_3ch_T1_T2w_T2f.nii.gz",
+            "label": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00202-000/seg_cropped.nii.gz"
+        },
+        {
+            "image": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00198-000/swinbrain_3ch_T1_T2w_T2f.nii.gz",
+            "label": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00198-000/seg_cropped.nii.gz"
+        },
+        {
+            "image": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00215-000/swinbrain_3ch_T1_T2w_T2f.nii.gz",
+            "label": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00215-000/seg_cropped.nii.gz"
+        },
+        {
+            "image": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00185-000/swinbrain_3ch_T1_T2w_T2f.nii.gz",
+            "label": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00185-000/seg_cropped.nii.gz"
+        },
+        {
+            "image": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00172-000/swinbrain_3ch_T1_T2w_T2f.nii.gz",
+            "label": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00172-000/seg_cropped.nii.gz"
+        },
+        {
+            "image": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00221-000/swinbrain_3ch_T1_T2w_T2f.nii.gz",
+            "label": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00221-000/seg_cropped.nii.gz"
+        },
+        {
+            "image": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00310-000/swinbrain_3ch_T1_T2w_T2f.nii.gz",
+            "label": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00310-000/seg_cropped.nii.gz"
+        },
+        {
+            "image": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00116-000/swinbrain_3ch_T1_T2w_T2f.nii.gz",
+            "label": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00116-000/seg_cropped.nii.gz"
+        },
+        {
+            "image": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00298-000/swinbrain_3ch_T1_T2w_T2f.nii.gz",
+            "label": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00298-000/seg_cropped.nii.gz"
+        },
+        {
+            "image": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00169-000/swinbrain_3ch_T1_T2w_T2f.nii.gz",
+            "label": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00169-000/seg_cropped.nii.gz"
+        },
+        {
+            "image": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00205-000/swinbrain_3ch_T1_T2w_T2f.nii.gz",
+            "label": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00205-000/seg_cropped.nii.gz"
+        },
+        {
+            "image": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00110-000/swinbrain_3ch_T1_T2w_T2f.nii.gz",
+            "label": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00110-000/seg_cropped.nii.gz"
+        },
+        {
+            "image": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00191-000/swinbrain_3ch_T1_T2w_T2f.nii.gz",
+            "label": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00191-000/seg_cropped.nii.gz"
+        },
+        {
+            "image": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00288-000/swinbrain_3ch_T1_T2w_T2f.nii.gz",
+            "label": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00288-000/seg_cropped.nii.gz"
+        },
+        {
+            "image": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00201-000/swinbrain_3ch_T1_T2w_T2f.nii.gz",
+            "label": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00201-000/seg_cropped.nii.gz"
+        }
+    ],
+    "validation": [
+        {
+            "image": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00194-000/swinbrain_3ch_T1_T2w_T2f.nii.gz",
+            "label": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00194-000/seg_cropped.nii.gz"
+        },
+        {
+            "image": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00111-000/swinbrain_3ch_T1_T2w_T2f.nii.gz",
+            "label": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00111-000/seg_cropped.nii.gz"
+        },
+        {
+            "image": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00126-000/swinbrain_3ch_T1_T2w_T2f.nii.gz",
+            "label": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00126-000/seg_cropped.nii.gz"
+        },
+        {
+            "image": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00264-000/swinbrain_3ch_T1_T2w_T2f.nii.gz",
+            "label": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00264-000/seg_cropped.nii.gz"
+        },
+        {
+            "image": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00229-000/swinbrain_3ch_T1_T2w_T2f.nii.gz",
+            "label": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00229-000/seg_cropped.nii.gz"
+        },
+        {
+            "image": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00214-000/swinbrain_3ch_T1_T2w_T2f.nii.gz",
+            "label": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00214-000/seg_cropped.nii.gz"
+        },
+        {
+            "image": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00166-000/swinbrain_3ch_T1_T2w_T2f.nii.gz",
+            "label": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00166-000/seg_cropped.nii.gz"
+        },
+        {
+            "image": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00277-000/swinbrain_3ch_T1_T2w_T2f.nii.gz",
+            "label": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00277-000/seg_cropped.nii.gz"
+        },
+        {
+            "image": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00282-000/swinbrain_3ch_T1_T2w_T2f.nii.gz",
+            "label": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00282-000/seg_cropped.nii.gz"
+        },
+        {
+            "image": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00141-000/swinbrain_3ch_T1_T2w_T2f.nii.gz",
+            "label": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00141-000/seg_cropped.nii.gz"
+        },
+        {
+            "image": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00163-000/swinbrain_3ch_T1_T2w_T2f.nii.gz",
+            "label": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00163-000/seg_cropped.nii.gz"
+        },
+        {
+            "image": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00291-000/swinbrain_3ch_T1_T2w_T2f.nii.gz",
+            "label": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00291-000/seg_cropped.nii.gz"
+        },
+        {
+            "image": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00272-000/swinbrain_3ch_T1_T2w_T2f.nii.gz",
+            "label": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00272-000/seg_cropped.nii.gz"
+        },
+        {
+            "image": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00176-000/swinbrain_3ch_T1_T2w_T2f.nii.gz",
+            "label": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00176-000/seg_cropped.nii.gz"
+        },
+        {
+            "image": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00295-000/swinbrain_3ch_T1_T2w_T2f.nii.gz",
+            "label": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00295-000/seg_cropped.nii.gz"
+        },
+        {
+            "image": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00285-000/swinbrain_3ch_T1_T2w_T2f.nii.gz",
+            "label": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00285-000/seg_cropped.nii.gz"
+        },
+        {
+            "image": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00153-000/swinbrain_3ch_T1_T2w_T2f.nii.gz",
+            "label": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00153-000/seg_cropped.nii.gz"
+        },
+        {
+            "image": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00255-000/swinbrain_3ch_T1_T2w_T2f.nii.gz",
+            "label": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00255-000/seg_cropped.nii.gz"
+        },
+        {
+            "image": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00180-000/swinbrain_3ch_T1_T2w_T2f.nii.gz",
+            "label": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00180-000/seg_cropped.nii.gz"
+        },
+        {
+            "image": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00165-000/swinbrain_3ch_T1_T2w_T2f.nii.gz",
+            "label": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00165-000/seg_cropped.nii.gz"
+        },
+        {
+            "image": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00224-000/swinbrain_3ch_T1_T2w_T2f.nii.gz",
+            "label": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00224-000/seg_cropped.nii.gz"
+        },
+        {
+            "image": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00112-000/swinbrain_3ch_T1_T2w_T2f.nii.gz",
+            "label": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00112-000/seg_cropped.nii.gz"
+        },
+        {
+            "image": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00251-000/swinbrain_3ch_T1_T2w_T2f.nii.gz",
+            "label": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00251-000/seg_cropped.nii.gz"
+        },
+        {
+            "image": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00192-000/swinbrain_3ch_T1_T2w_T2f.nii.gz",
+            "label": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00192-000/seg_cropped.nii.gz"
+        },
+        {
+            "image": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00162-000/swinbrain_3ch_T1_T2w_T2f.nii.gz",
+            "label": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00162-000/seg_cropped.nii.gz"
+        },
+        {
+            "image": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00157-000/swinbrain_3ch_T1_T2w_T2f.nii.gz",
+            "label": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00157-000/seg_cropped.nii.gz"
+        },
+        {
+            "image": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00182-000/swinbrain_3ch_T1_T2w_T2f.nii.gz",
+            "label": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00182-000/seg_cropped.nii.gz"
+        },
+        {
+            "image": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00164-000/swinbrain_3ch_T1_T2w_T2f.nii.gz",
+            "label": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00164-000/seg_cropped.nii.gz"
+        },
+        {
+            "image": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00225-000/swinbrain_3ch_T1_T2w_T2f.nii.gz",
+            "label": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00225-000/seg_cropped.nii.gz"
+        },
+        {
+            "image": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00233-000/swinbrain_3ch_T1_T2w_T2f.nii.gz",
+            "label": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00233-000/seg_cropped.nii.gz"
+        },
+        {
+            "image": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00105-000/swinbrain_3ch_T1_T2w_T2f.nii.gz",
+            "label": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00105-000/seg_cropped.nii.gz"
+        },
+        {
+            "image": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00114-000/swinbrain_3ch_T1_T2w_T2f.nii.gz",
+            "label": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00114-000/seg_cropped.nii.gz"
+        },
+        {
+            "image": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00152-000/swinbrain_3ch_T1_T2w_T2f.nii.gz",
+            "label": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00152-000/seg_cropped.nii.gz"
+        },
+        {
+            "image": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00173-000/swinbrain_3ch_T1_T2w_T2f.nii.gz",
+            "label": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00173-000/seg_cropped.nii.gz"
+        },
+        {
+            "image": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00253-000/swinbrain_3ch_T1_T2w_T2f.nii.gz",
+            "label": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00253-000/seg_cropped.nii.gz"
+        },
+        {
+            "image": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00203-000/swinbrain_3ch_T1_T2w_T2f.nii.gz",
+            "label": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00203-000/seg_cropped.nii.gz"
+        },
+        {
+            "image": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00237-000/swinbrain_3ch_T1_T2w_T2f.nii.gz",
+            "label": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00237-000/seg_cropped.nii.gz"
+        },
+        {
+            "image": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00239-000/swinbrain_3ch_T1_T2w_T2f.nii.gz",
+            "label": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00239-000/seg_cropped.nii.gz"
+        },
+        {
+            "image": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00271-000/swinbrain_3ch_T1_T2w_T2f.nii.gz",
+            "label": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00271-000/seg_cropped.nii.gz"
+        },
+        {
+            "image": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00174-000/swinbrain_3ch_T1_T2w_T2f.nii.gz",
+            "label": "/content/drive/MyDrive/Brain_segmentation/BRATS_MET_preproc/BraTS-MET-00174-000/seg_cropped.nii.gz"
+        }
+    ]
+}
